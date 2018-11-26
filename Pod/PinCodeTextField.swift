@@ -146,6 +146,7 @@ import UIKit
             updateUnderlines()
         }
         updateBackgrounds()
+        updateBorders()
         setNeedsLayout()
     }
     
@@ -222,7 +223,7 @@ import UIKit
         }
     }
     
-    private func updateBorder() {
+    private func updateBorders() {
         for background in backgrounds {
             background.layer.borderWidth = characterBorderWidth
             background.layer.borderColor = characterBorderColor.cgColor
