@@ -38,6 +38,8 @@ import UIKit
     @IBInspectable public var needToUpdateUnderlines: Bool = true
     @IBInspectable public var characterBackgroundColor: UIColor = UIColor.clear
     @IBInspectable public var characterBackgroundCornerRadius: CGFloat = 0
+    @IBInspectable public var characterBorderWidth: CGFloat = 0
+    @IBInspectable public var characterBorderColor: UIColor = UIColor.clear
     @IBInspectable public var highlightInputUnderline: Bool = false
     
     //MARK: Customizable from code
