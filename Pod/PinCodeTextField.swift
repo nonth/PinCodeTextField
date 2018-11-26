@@ -262,6 +262,8 @@ import UIKit
         let background = UIView()
         background.backgroundColor = characterBackgroundColor
         background.layer.cornerRadius = characterBackgroundCornerRadius
+        background.layer.borderWidth = characterBorderWidth
+        background.layer.borderColor = characterBorderColor.cgColor
         background.clipsToBounds = true
         return background
     }
