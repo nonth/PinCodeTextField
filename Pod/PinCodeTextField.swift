@@ -222,6 +222,13 @@ import UIKit
         }
     }
     
+    private func updateBorder() {
+        for background in backgrounds {
+            background.layer.borderWidth = characterBorderWidth
+            background.layer.borderColor = characterBorderColor.cgColor
+        }
+    }
+    
     private func labelColor(isPlaceholder placeholder: Bool) -> UIColor {
         return placeholder ? placeholderColor : textColor
     }
